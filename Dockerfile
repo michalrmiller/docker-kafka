@@ -1,9 +1,9 @@
 FROM java:8
 
 ENV MIRROR="https://dist.apache.org/repos/dist/release"
-ENV VERSION="0.8.2.0"
+ENV VERSION="0.8.2.2"
 ENV SCALA_VERSION="2.10"
-ENV SHA1="0b1504661f369877af43458fd06299c1356a453f"
+ENV SHA1="2c11bc33f69f64126ba0d9cc78ed397797718fec"
 
 ENV FILE="kafka_${SCALA_VERSION}-${VERSION}.tgz"
 
